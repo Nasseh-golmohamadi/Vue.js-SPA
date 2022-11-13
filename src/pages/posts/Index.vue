@@ -45,7 +45,7 @@ export default {
 
     getPosts();
 
-    return { posts, loading };
+    return { posts, loading , error };
   },
 };
 </script>
