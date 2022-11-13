@@ -29,7 +29,7 @@ export default {
           loading.value = false;
         })
         .catch(function (error) {
-          console.log(Error-Axios);
+          console.log(error);
         });
     }
 
